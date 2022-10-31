@@ -25,7 +25,7 @@ jobs:
       # kk
       - image: "cimg/base:stable"
     steps:
-     - node/install:
+      - node/install:
           node-version: '16.18.0'
       - checkout
       - run:
