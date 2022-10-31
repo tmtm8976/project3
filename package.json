@@ -15,5 +15,8 @@
     },
     "devDependencies": {
         "webpack": "^5.74.0"
+    },
+    "dependencies": {
+        "node": "^16.18.0"
     }
 }
