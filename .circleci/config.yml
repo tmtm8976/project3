@@ -8,11 +8,20 @@ orbs:
   aws-cli: circleci/aws-cli@3.1.1
   # different jobs are calles later in the workflows sections
 jobs:
+  install-node-example:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - checkout
+      - node/install:
+          install-yarn: true
+          node-version: '16.13'
+      - run: node --version
   build:
     docker:
       # the base image can run most needed actions with orbs
       # kk
-      - image: "cimg/node:14.15"
+      - image: "cimg/node:16.13"
     steps:
       - node/install
       - checkout
