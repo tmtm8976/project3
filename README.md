@@ -32,10 +32,7 @@
 
 # Project Overview:
 
-<a
- href="docs/Infrastructure description.md"> 
-   1. Infrastructure description
-   </a>
+<a href="docs/Infrastructure description.md">1. Infrastructure description</a>
 
 <a href="docs/App dependencies.md">   2. App dependencies.md</a>
 
