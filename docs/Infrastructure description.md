@@ -45,3 +45,7 @@ db screenshot
 db screenshot
     <img src=""/>
   </p>
+
+## Pipeline Enviroment:
+- CircleCi
+- GitHub Repo: https://github.com/tmtm8976/project3.git

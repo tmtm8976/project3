@@ -15,6 +15,7 @@ jobs:
       - node/install:
           node-version: '16.18.0'
       - checkout
+      - aws-cli/setup
       - run:
           name: Front-End Install
           command: |
