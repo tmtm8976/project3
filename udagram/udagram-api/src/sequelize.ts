@@ -1,13 +1,8 @@
 import { Sequelize } from "sequelize-typescript";
 import { config } from "./config/config";
 
-export const sequelize = new Sequelize({
-  username: config.username,
-  password: config.password,
-  database: config.database,
+// Option 3: Passing parameters separately (other dialects)
+export const sequelize = new Sequelize(config.database, config.username, config.password, {
   host: config.host,
-  port: config.db_port as unknown as number,
-
-  dialect: "postgres",
-  storage: ":memory:",
+  dialect: 'postgres'
 });

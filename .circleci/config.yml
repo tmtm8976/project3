@@ -32,10 +32,10 @@ jobs:
           name: Back-End Build
           command: |
             npm run api:build
-      - run:
-          name: Deploy App
-          command: |
-            npm run frontend:deploy
+      # - run:
+      #     name: Deploy App
+      #     command: |
+      #       npm run frontend:deploy co
 
   # deploy step will run only after manual approval
   deploy:

@@ -35,15 +35,15 @@ opend url screen shot
 
 ## Database Deployed in RDS:
 
--  DB URL: `udagram-database.c5sxnudi1lbf.us-east-1.rds.amazonaws.com`
+-  DB URL: `database-1.crohwhptzgil.us-east-1.rds.amazonaws.com`
 
 <p align="center">
 db screenshot
-    <img src=""/>
+    <img src="./images/screenshots/db1.png"/>
   </p>
 <p align="center">
 db screenshot
-    <img src=""/>
+    <img src="./images/screenshots/db2.png"/>
   </p>
 
 ## Pipeline Enviroment:
